@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Play"
+                android:id="@+id/play_button"
+                android:layout_weight="0.2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Stop"
+                android:id="@+id/stop_button"
+                android:layout_weight="0.2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Prev"
+                android:id="@+id/prev_button"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Next"
+                android:id="@+id/next_button"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Vol -"
+                android:id="@+id/volm_button"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:layout_width="87dp"
+                android:layout_height="fill_parent"
+                android:text="Vol +"
+                android:id="@+id/volp_button"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
